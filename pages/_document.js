@@ -20,8 +20,30 @@ class MyDocument extends Document {
           <title>Your Website Title</title>
         </Head>
         <body>
+          {/* Main content */}
           <Main />
+          {/* Next.js scripts */}
           <NextScript />
+
+          {/* Multilingual instructions */}
+          <div id="instructions">
+            {/* English */}
+            <div lang="en">
+              <h2>How to Use the Tools</h2>
+              <p>This section provides instructions on how to use the tools.</p>
+            </div>
+            {/* Spanish */}
+            <div lang="es">
+              <h2>Cómo Usar las Herramientas</h2>
+              <p>Esta sección proporciona instrucciones sobre cómo utilizar las herramientas.</p>
+            </div>
+            {/* French */}
+            <div lang="fr">
+              <h2>Comment Utiliser les Outils</h2>
+              <p>Cette section fournit des instructions sur l'utilisation des outils.</p>
+            </div>
+            {/* Add more languages as needed */}
+          </div>
         </body>
       </Html>
     );
