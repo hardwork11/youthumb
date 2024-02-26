@@ -20,9 +20,9 @@ class MyDocument extends Document {
           <title>Your Website Title</title>
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
-          {/* Input box */}
+          {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* Text content */}
+            {/* How to use section */}
             <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Paste YouTube Video URL:</h2>
             <input type="text" style={{ width: "100%", padding: "10px", fontSize: "16px", marginBottom: "20px" }} placeholder="Paste YouTube video URL here" />
           </div>
