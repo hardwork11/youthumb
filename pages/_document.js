@@ -20,13 +20,10 @@ class MyDocument extends Document {
           <title>Your Website Title</title>
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
-          {/* Main content */}
+          {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* Text content */}
-            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Paste YouTube Video URL:</h2>
-            <input type="text" style={{ width: "100%", padding: "10px", fontSize: "16px", marginBottom: "20px" }} placeholder="Paste YouTube video URL here" />
             {/* How to use section */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How to Use:</h2>
+            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>How to Use:</h2>
             <p>I have shared some screenshots to guide you on how to use this YouTube downloader website. It's quite easy:</p>
             <ol>
               <li>Copy any YouTube link whose thumbnail you want.</li>
@@ -34,12 +31,9 @@ class MyDocument extends Document {
               <li>Click on the thumbnail download button to download it to your system.</li>
             </ol>
             <p>If you are using an Android phone, you need to save the images. For iPhones, the process may vary.</p>
-            {/* Legal information */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>Legal Information:</h2>
-            <p>Of course, it's 100% legal to download YouTube video thumbnails. However, thumbnails and videos are copyrighted products, so you should take author permissions before reusing them.</p>
-            {/* Compatibility */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>Compatibility:</h2>
-            <p>This YouTube thumbnail downloader website works well on all devices except iPhone. It may not allow saving images due to device restrictions. Jailbroken iPhones should not face any issues. It works fine on Android devices and desktop systems.</p>
+            {/* Render the main content */}
+            <Main />
+            <NextScript />
             {/* Copyright */}
             <h2 style={{ fontSize: "20px", marginTop: "20px" }}>Copyright Information:</h2>
             <p>Whatever YouTube screenshot you download is copyrighted by the respective owner of the videos. Always ask for permission before using it in your work.</p>
@@ -49,9 +43,6 @@ class MyDocument extends Document {
             {/* Website information */}
             <p style={{ fontSize: "14px", marginTop: "20px" }}><strong>YouTubThumbnailDownload.com - Copyright 2024</strong></p>
           </div>
-          {/* Render the main content */}
-          <Main />
-          <NextScript />
         </body>
       </Html>
     );
