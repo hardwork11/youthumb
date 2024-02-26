@@ -22,11 +22,8 @@ class MyDocument extends Document {
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            <h1 style={{ fontSize: "24px", marginBottom: "20px" }}>YouTube Thumbnail Downloader</h1>
-            <p>▷ Save YT Video Thumbnails</p>
-            <p>Get free thumbnail image of any youtube videos in Full HD(1080), HD (720), SD, and also in small size. it's currently supported formats: YouTube (HD, HQ, 1080p, 4K) videos</p>
             {/* How to use section */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How to Use:</h2>
+            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>How to Use:</h2>
             <p>I have shared some screenshots to guide you on how to use this YouTube downloader website. It's quite easy:</p>
             <ol>
               <li>Copy any YouTube link whose thumbnail you want.</li>
