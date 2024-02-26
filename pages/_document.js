@@ -22,16 +22,7 @@ class MyDocument extends Document {
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* How to use section */}
-            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>How to Use:</h2>
-            <p>I have shared some screenshots to guide you on how to use this YouTube downloader website. It's quite easy:</p>
-            <ol>
-              <li>Copy any YouTube link whose thumbnail you want.</li>
-              <li>Paste the URL in the input box. It will automatically generate different sizes of thumbnails.</li>
-              <li>Click on the thumbnail download button to download it to your system.</li>
-            </ol>
-            <p>If you are using an Android phone, you need to save the images. For iPhones, the process may vary.</p>
-            {/* Render the main content */}
+            {/* Main content */}
             <Main />
             <NextScript />
             {/* Copyright */}
