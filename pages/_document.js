@@ -20,17 +20,12 @@ class MyDocument extends Document {
           <title>Your Website Title</title>
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
-          {/* Text content */}
+          {/* Main content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* How to use section */}
+            {/* Text content */}
             <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Paste YouTube Video URL:</h2>
             <input type="text" style={{ width: "100%", padding: "10px", fontSize: "16px", marginBottom: "20px" }} placeholder="Paste YouTube video URL here" />
-          </div>
-          {/* Main content */}
-          <Main />
-          <NextScript />
-          {/* Text content */}
-          <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
+            {/* How to use section */}
             <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How to Use:</h2>
             <p>I have shared some screenshots to guide you on how to use this YouTube downloader website. It's quite easy:</p>
             <ol>
@@ -54,6 +49,9 @@ class MyDocument extends Document {
             {/* Website information */}
             <p style={{ fontSize: "14px", marginTop: "20px" }}><strong>YouTubThumbnailDownload.com - Copyright 2024</strong></p>
           </div>
+          {/* Render the main content */}
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
