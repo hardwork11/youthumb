@@ -51,6 +51,14 @@ class MyDocument extends Document {
             </ul>
             <p>With a wide range of applications, our tool aims to streamline the thumbnail acquisition process and enhance the overall content creation experience for users.</p>
           </div>
+          {/* Privacy & Policy */}
+          <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
+            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>Privacy & Policy:</h2>
+            <p>We take your privacy seriously. Our website respects your data and ensures that it is handled securely and in compliance with applicable privacy laws.</p>
+            <p>We may collect certain information when you use our services, such as your IP address, browser type, and device information. This information is used for analytics purposes and to improve the functionality and performance of our website.</p>
+            <p>We do not sell or share your personal information with third parties without your consent. However, please note that our website may contain links to third-party websites, and we are not responsible for the privacy practices or content of those sites.</p>
+            <p>By using our website, you consent to the collection and use of your information as described in this Privacy & Policy statement. If you have any questions or concerns about our privacy practices, please contact us.</p>
+          </div>
         </body>
       </Html>
     );
