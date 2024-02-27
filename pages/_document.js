@@ -22,11 +22,22 @@ class MyDocument extends Document {
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* Main content */}
-            <Main />
-            <NextScript />
-            {/* Copyright */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>Copyright Information:</h2>
+            {/* How to use section */}
+            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>How to Use:</h2>
+            <p>I have shared some screenshots to guide you on how to use this YouTube downloader website. It's quite easy:</p>
+            <ol>
+              <li>Copy any YouTube link whose thumbnail you want.</li>
+              <li>Paste the URL in the input box. It will automatically generate different sizes of thumbnails.</li>
+              <li>Click on the thumbnail download button to download it to your system.</li>
+            </ol>
+            <p>If you are using an Android phone, you need to save the images. For iPhones, the process may vary.</p>
+          </div>
+          {/* Render the main content */}
+          <Main />
+          <NextScript />
+          {/* Copyright */}
+          <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
+            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Copyright Information:</h2>
             <p>Whatever YouTube screenshot you download is copyrighted by the respective owner of the videos. Always ask for permission before using it in your work.</p>
             {/* SEO */}
             <h2 style={{ fontSize: "20px", marginTop: "20px" }}>SEO Considerations:</h2>
