@@ -35,15 +35,21 @@ class MyDocument extends Document {
           {/* Render the main content */}
           <Main />
           <NextScript />
-          {/* Copyright */}
+          {/* Additional content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Copyright Information:</h2>
-            <p>Whatever YouTube screenshot you download is copyrighted by the respective owner of the videos. Always ask for permission before using it in your work.</p>
-            {/* SEO */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>SEO Considerations:</h2>
-            <p>Reusing YouTube thumbnails may not be SEO-friendly as most thumbnails on YouTube are indexed by Google. Adding unique effects using software like Photoshop can make them unique again and improve SEO friendliness.</p>
-            {/* Website information */}
-            <p style={{ fontSize: "14px", marginTop: "20px" }}><strong>YouTubThumbnailDownload.com - Copyright 2024</strong></p>
+            {/* Thumbnail explanation */}
+            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>About Thumbnails:</h2>
+            <p>Thumbnails play a crucial role in attracting viewers' attention on platforms like YouTube. They serve as a preview of the video content and can significantly impact the click-through rate (CTR) of your videos.</p>
+            <p>Having visually appealing and informative thumbnails can increase the likelihood of users clicking on your videos, thereby improving your video's performance and reach.</p>
+            {/* Tool benefits */}
+            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How Our Tool Can Help:</h2>
+            <p>Our YouTube Thumbnail Downloader tool simplifies the process of obtaining high-quality thumbnails from YouTube videos. By providing direct access to these thumbnails, our tool empowers content creators, marketers, and designers to:</p>
+            <ul>
+              <li>Create eye-catching thumbnails for their own videos</li>
+              <li>Analyze competitors' thumbnails for inspiration and research</li>
+              <li>Use thumbnails for presentations, social media posts, and other promotional materials</li>
+            </ul>
+            <p>With a wide range of applications, our tool aims to streamline the thumbnail acquisition process and enhance the overall content creation experience for users.</p>
           </div>
         </body>
       </Html>
